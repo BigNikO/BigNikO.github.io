@@ -1,15 +1,15 @@
 import React from 'react';
+import Header from '../Layout/Header';
+import { Box } from '@material-ui/core';
 
 const HomePage = () => {
   return (
-    <div className="App">
-      <header>
-        <h1>My React page</h1>
-      </header>
+    <Box>
+      <Header />
       <main>
-        <p>Hello!</p>
+        <p>Hello World!</p>
       </main>
-    </div>
+    </Box>
   );
 };
 
