@@ -7,7 +7,7 @@ const HomePage = () => {
     <Box>
       <Header />
       <main>
-        <p>Hello World!</p>
+        <p>Hello Page!</p>
       </main>
     </Box>
   );
