@@ -1,0 +1,31 @@
+.menu-container {
+  width: 100%;
+  background-color: #ffe600;
+  transition: 0.5s;
+  position: absolute;
+  left: 0;
+}
+
+.navigation-container {
+  min-height: calc(100vh - theme('spacing.48'));
+}
+
+.navigation-section-content {
+  width: 27vh;
+  height: 27vh;
+}
+
+.menu-container.hidden-menu {
+  width: 0;
+  top: 0;
+}
+
+.menu-icon {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1vh;
+  margin-left: 1vh;
+  cursor: pointer;
+  align-self: flex-start;
+  z-index: 999;
+}
